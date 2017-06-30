@@ -2,11 +2,17 @@
 <html>
 <head>
 <style>
-h1  {
+
+body{
+    background: red;
+}
+
+h {
     padding: 17px;
     font-size: 30px;
     font-family: Century Gothic;
-    color: white;
+    color: black;
+    text-align:center;
 }
 
 ul {
