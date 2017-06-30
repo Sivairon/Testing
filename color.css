@@ -1,6 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
 <style>
 h1  {
-    padding: 15px;
+	padding: 17px;
     font-size: 30px;
     font-family: Century Gothic;
     color: white;
@@ -27,8 +30,14 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+li a.active{
+    background-color: #555;
+    color: white;
+}
+
+li a:hover:not(.active) {
     background-color: #6600ff;
-    color: #1a0033;
+    color: white;
 }
 </style>
+
